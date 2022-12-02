@@ -8,3 +8,4 @@ bool num_prim(int n, int i)
         return false;
     else
         num_prim(n, i - 1);
+}
