@@ -1,4 +1,3 @@
-#include "lib.h"
 bool num_prim(int n, int i)
 {
 
