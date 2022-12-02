@@ -1,6 +1,6 @@
 #include <iostream>
 #include "lib.h"
-int main(){ù
+int main(){
   int n;
     int i;
     bool ris;
