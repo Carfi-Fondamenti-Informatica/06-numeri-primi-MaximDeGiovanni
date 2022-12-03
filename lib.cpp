@@ -1,11 +1,13 @@
 bool num_prim(int n, int i)
 {
+    int r;
 
     if (i<2)
         return true;
+    r = n % i;
 
-    if ( n % i == 0)
+    if ( r == 0)
         return false;
     else
-        num_prim(n, i - 1);
+        r=num_prim(n, i - 1);
 }
